@@ -1,5 +1,5 @@
 {
-  "name": "bloomxx",
+  "name": "bloomxx-fork",
   "description": "bloom filters backed by xxhash",
   "version": "0.1.2",
   "author": "C J Silverio <ceejceej@gmail.com>",
