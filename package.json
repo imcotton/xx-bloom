@@ -17,6 +17,9 @@
     "nyc": "~11.2.1",
     "xo": "~0.18.2"
   },
+  "files": [
+    "lib/"
+  ],
   "directories": {
     "lib": "lib",
     "test": "test"
