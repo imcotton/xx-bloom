@@ -1,13 +1,13 @@
 {
-  "name": "bloomxx",
+  "name": "bloomxx-fork",
   "description": "bloom filters backed by xxhash",
-  "version": "0.1.2",
+  "version": "100.1.2",
   "author": "C J Silverio <ceejceej@gmail.com>",
   "bugs": {
     "url": "https://github.com/ceejbot/xx-bloom/issues"
   },
   "dependencies": {
-    "xxhash": "~0.2.4"
+    "xxhashjs": "^0.2.2"
   },
   "devDependencies": {
     "coveralls": "~2.13.1",
@@ -17,6 +17,9 @@
     "nyc": "~11.2.1",
     "xo": "~0.18.2"
   },
+  "files": [
+    "lib/"
+  ],
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -33,7 +36,6 @@
   "license": "MIT",
   "main": "index.js",
   "optionalDependencies": {
-    "redis": "~2.6.0"
   },
   "repository": {
     "type": "git",
