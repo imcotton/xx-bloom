@@ -1,10 +1,10 @@
 {
-  "name": "bloomxx",
+  "name": "@stableness/bloomxx",
   "description": "bloom filters backed by xxhash",
   "version": "100.1.2",
   "author": "C J Silverio <ceejceej@gmail.com>",
   "bugs": {
-    "url": "https://github.com/ceejbot/xx-bloom/issues"
+    "url": "https://github.com/stableness/xx-bloom/issues"
   },
   "dependencies": {
     "xxhashjs": "^0.2.2"
@@ -24,7 +24,7 @@
     "lib": "lib",
     "test": "test"
   },
-  "homepage": "https://github.com/ceejbot/xx-bloom#readme",
+  "homepage": "https://github.com/stableness/xx-bloom#readme",
   "keywords": [
     "bitmap",
     "bloom",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ceejbot/xx-bloom.git"
+    "url": "git://github.com/stableness/xx-bloom.git"
   },
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov | coveralls",
